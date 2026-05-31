@@ -47,7 +47,7 @@ def clean_credit_data(df: pd.DataFrame) -> pd.DataFrame:
     if "default_payment_next_month" not in df.columns and "y" in df.columns:
         df = df.rename(columns={"y": TARGET})
     if TARGET not in df.columns:
-        raise ValueError(f"Target column '{TARGET}' not found.")
+        raise ValueError(f"Kolom target '{TARGET}' tidak ditemukan.")
 
     df = df.drop(columns=[col for col in ID_COLUMNS if col in df.columns])
     df = df.drop_duplicates()
@@ -162,9 +162,9 @@ def make_sample_data(rows: int = 500) -> pd.DataFrame:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", default=None, help="Optional local XLS/CSV source. Defaults to UCI URL.")
+    parser.add_argument("--source", default=None, help="Sumber XLS/CSV lokal opsional. Default menggunakan URL UCI.")
     parser.add_argument("--output-dir", default="SMSML_Rafli-Ardiansyah/Membangun_model/credit_default_preprocessing")
-    parser.add_argument("--sample", action="store_true", help="Use deterministic sample data for offline smoke tests.")
+    parser.add_argument("--sample", action="store_true", help="Gunakan data contoh deterministik untuk smoke test offline.")
     args = parser.parse_args()
 
     if args.sample:

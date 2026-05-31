@@ -1,10 +1,10 @@
-Generated training data is placed here by:
+Dataset siap latih pada folder ini dihasilkan oleh:
 
 ```bash
 python ../../Eksperimen_SML_Rafli-Ardiansyah/preprocessing/automate_Rafli_Ardiansyah.py
 ```
 
-Expected files:
+File yang diharapkan:
 
 - `train.csv`
 - `test.csv`

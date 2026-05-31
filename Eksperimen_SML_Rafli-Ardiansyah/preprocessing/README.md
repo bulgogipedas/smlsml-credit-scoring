@@ -1,9 +1,9 @@
 # Preprocessing
 
-Run:
+Jalankan perintah berikut untuk menghasilkan dataset siap latih:
 
 ```bash
 python automate_Rafli_Ardiansyah.py
 ```
 
-The script downloads the UCI credit default dataset, cleans column names, validates the target, applies train/test split, encodes categorical columns, scales numerical columns, and writes model-ready CSV files.
+Script ini mengunduh dataset UCI Default of Credit Card Clients, membersihkan nama kolom, memvalidasi target, melakukan pembagian train/test, encoding kolom kategorikal, scaling kolom numerik, dan menyimpan file CSV yang siap digunakan untuk pelatihan model.

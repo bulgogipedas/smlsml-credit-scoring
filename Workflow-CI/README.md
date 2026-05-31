@@ -1,5 +1,5 @@
 # Workflow CI
 
-Kriteria 3 advanced workflow for automated MLflow retraining and image publishing.
+Folder ini berisi artefak Kriteria 3 Advanced untuk retraining otomatis menggunakan MLflow Project dan publikasi image model.
 
-The local machine can use Podman. GitHub Actions publishes an OCI-compatible image to Docker Hub because Docker Hub is the required public registry target in the rubric example.
+Environment lokal menggunakan Podman. GitHub Actions tetap memublikasikan image OCI-compatible ke Docker Hub karena target registry publik tersebut sesuai dengan kebutuhan rubrik Advanced.

@@ -1,8 +1,8 @@
-Docker Hub image:
+Image Docker Hub:
 https://hub.docker.com/r/bulgogipedas/smlsml-credit-scoring
 
-Latest tag:
+Tag terbaru:
 bulgogipedas/smlsml-credit-scoring:latest
 
-Successful GitHub Actions run:
+Run GitHub Actions yang berhasil:
 https://github.com/bulgogipedas/smlsml-credit-scoring/actions/runs/26702511578

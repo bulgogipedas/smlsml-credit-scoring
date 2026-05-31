@@ -1,16 +1,16 @@
 # Eksperimen SML Rafli Ardiansyah
 
-Kriteria 1 advanced repository content for credit scoring experimentation.
+Folder ini berisi artefak Kriteria 1 Advanced untuk eksperimen dan preprocessing dataset credit scoring.
 
-Dataset: UCI Default of Credit Card Clients.
+Dataset yang digunakan: UCI Default of Credit Card Clients.
 
-Required manual notebook:
+Notebook eksperimen manual:
 
 ```text
 preprocessing/Eksperimen_Rafli_Ardiansyah.ipynb
 ```
 
-Automation script:
+Script preprocessing otomatis:
 
 ```text
 preprocessing/automate_Rafli_Ardiansyah.py

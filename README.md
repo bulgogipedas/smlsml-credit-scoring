@@ -1,21 +1,21 @@
 # SMLSML Credit Scoring
 
-Submission workspace for **Rafli Ardiansyah** targeting the advanced rubric for the Dicoding SMSML project.
+Workspace submission untuk **Rafli Ardiansyah** yang disiapkan agar memenuhi target penilaian Advanced pada proyek Dicoding SMSML.
 
-Dashboard evidence must use this Grafana dashboard name:
+Nama dashboard Grafana yang digunakan sebagai bukti monitoring:
 
 ```text
 dashboard-mikachuu
 ```
 
-Local tooling preference:
+Preferensi environment lokal:
 
 - Python: `3.12.7`
-- Dependency runner: `uv`
+- Pengelola environment/dependency: `uv`
 - MLflow: `2.19.0`
-- Container runtime: `podman`
+- Runtime container: `podman`
 
-## Local flow
+## Alur Lokal
 
 ```bash
 uv venv --python 3.12.7
@@ -26,9 +26,9 @@ python SMSML_Rafli-Ardiansyah/Membangun_model/modelling.py
 python SMSML_Rafli-Ardiansyah/Membangun_model/modelling_tuning.py
 ```
 
-Use DagsHub credentials before running `modelling_tuning.py` for the advanced online tracking requirement.
+Pastikan kredensial DagsHub sudah tersedia sebelum menjalankan `modelling_tuning.py`, karena file tersebut mengirimkan tracking run, artifact, dan model registry ke DagsHub.
 
-## Repository target
+## Repository Target
 
 ```text
 https://github.com/bulgogipedas/smlsml-credit-scoring

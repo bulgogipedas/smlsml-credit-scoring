@@ -1,6 +1,6 @@
-Capture at least 10 Prometheus metric screenshots from http://localhost:9090.
+Folder ini berisi minimal 10 tangkapan layar metrik Prometheus dari layanan lokal di `http://localhost:9090`.
 
-Recommended file names:
+Nama file yang digunakan:
 
 - `1.monitoring_credit_request_total.jpg`
 - `2.monitoring_credit_request_latency_seconds.jpg`

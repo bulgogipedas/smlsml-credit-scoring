@@ -45,7 +45,7 @@ def resolve_model_uri() -> str:
         return MODEL_URI
     if DEFAULT_MODEL_URI_FILE.exists():
         return DEFAULT_MODEL_URI_FILE.read_text(encoding="utf-8").strip()
-    raise RuntimeError("Set MODEL_URI or create model_uri.txt with an MLflow model URI.")
+    raise RuntimeError("Atur MODEL_URI atau buat model_uri.txt yang berisi URI model MLflow.")
 
 
 @app.on_event("startup")

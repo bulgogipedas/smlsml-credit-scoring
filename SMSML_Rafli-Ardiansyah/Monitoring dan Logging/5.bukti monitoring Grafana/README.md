@@ -1,3 +1,3 @@
-Capture Grafana panels from dashboard `dashboard-mikachuu`.
+Folder ini berisi tangkapan layar panel Grafana dari dashboard `dashboard-mikachuu`.
 
-The screenshot must clearly show the dashboard name.
+Tangkapan layar utama harus memperlihatkan nama dashboard agar sesuai dengan ketentuan submission.

@@ -1,10 +1,10 @@
-Create and capture 3 Grafana alerts:
+Buat dan lampirkan bukti 3 alert Grafana:
 
-- high latency: p95 latency is above threshold
-- high error total/rate: error metric is above threshold
-- high default prediction ratio: default ratio is above threshold
+- high latency: p95 latency berada di atas threshold
+- high error total/rate: metrik error berada di atas threshold
+- high default prediction ratio: rasio prediksi default berada di atas threshold
 
-For each alert, include rule and notification evidence:
+Untuk setiap alert, sertakan bukti rule dan notifikasi:
 
 - `1.rules_latency.jpg`
 - `2.notifikasi_latency.jpg`
