@@ -1,4 +1,8 @@
-Isi setelah GitHub Actions advanced berhasil push image.
+Docker Hub image:
+https://hub.docker.com/r/bulgogipedas/smlsml-credit-scoring
 
-Format:
-https://hub.docker.com/r/<dockerhub-username>/smlsml-credit-scoring
+Latest tag:
+bulgogipedas/smlsml-credit-scoring:latest
+
+Successful GitHub Actions run:
+https://github.com/bulgogipedas/smlsml-credit-scoring/actions/runs/26702511578
