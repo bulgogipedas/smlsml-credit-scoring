@@ -1,0 +1,4 @@
+Isi setelah GitHub Actions advanced berhasil push image.
+
+Format:
+https://hub.docker.com/r/<dockerhub-username>/smlsml-credit-scoring

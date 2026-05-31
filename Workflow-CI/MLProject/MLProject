@@ -1,0 +1,11 @@
+name: credit-scoring-mlflow-project
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      data_dir: {type: str, default: "credit_default_preprocessing"}
+      max_depth: {type: str, default: "12"}
+      n_estimators: {type: int, default: 200}
+    command: "python modelling.py --data-dir {data_dir} --max-depth {max_depth} --n-estimators {n_estimators}"
