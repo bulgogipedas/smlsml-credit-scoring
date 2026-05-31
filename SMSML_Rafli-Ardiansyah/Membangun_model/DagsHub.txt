@@ -1,4 +1,8 @@
-Isi setelah repository DagsHub dibuat dan run MLflow berhasil.
+Repository DagsHub:
+https://dagshub.com/bulgogipedas/smlsml-credit-scoring
 
-Format yang disarankan:
-https://dagshub.com/<username>/<repo-name>/experiments
+MLflow Experiments:
+https://dagshub.com/bulgogipedas/smlsml-credit-scoring/experiments
+
+MLflow UI:
+https://dagshub.com/bulgogipedas/smlsml-credit-scoring.mlflow

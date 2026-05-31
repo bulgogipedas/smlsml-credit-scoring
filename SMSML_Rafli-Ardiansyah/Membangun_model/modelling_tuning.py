@@ -31,12 +31,12 @@ ARTIFACT_DIR = Path(__file__).resolve().parent / "artifacts"
 
 
 def configure_tracking() -> None:
-    dagshub_owner = os.getenv("DAGSHUB_OWNER")
-    dagshub_repo = os.getenv("DAGSHUB_REPO")
+    dagshub_owner = os.getenv("DAGSHUB_OWNER", "bulgogipedas")
+    dagshub_repo = os.getenv("DAGSHUB_REPO", "smlsml-credit-scoring")
 
-    if dagshub_owner and dagshub_repo:
+    try:
         dagshub.init(repo_owner=dagshub_owner, repo_name=dagshub_repo, mlflow=True)
-    else:
+    except Exception:
         mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "http://127.0.0.1:5000/"))
 
     mlflow.set_experiment("Credit Scoring Rafli Ardiansyah Advanced")
