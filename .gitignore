@@ -5,6 +5,8 @@ __pycache__/
 venv/
 mlruns/
 mlartifacts/
+artifacts/
+latest_run_id.txt
 *.log
 *.zip
 .pytest_cache/
